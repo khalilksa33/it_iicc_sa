@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>IT Managed Services</title>
+</head>
+<body>
+    {% extends "main/base.html" %}
+
+    {% block title %}Home{% endblock %}
+    
+    {% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to IT Managed Services</h1>
+        <p class="lead">Current Date: {{ current_date }}</p>
+        <p>Visitor Count: {{ visitor_count }}</p>
+    </div>
+    {% endblock %}
+    
+</body>
+</html>
